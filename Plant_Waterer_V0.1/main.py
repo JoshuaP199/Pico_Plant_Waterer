@@ -11,7 +11,6 @@ ena.freq(15000)
 ena.duty_u16(60000)
 
 motorValue = ""
-timer = 0
 
 while True:
     moistMeter = adc.read_u16()
@@ -21,7 +20,7 @@ while True:
     elif(moistMeter < 16500):
         in1.value(0)
         motorValue = "OFF"
-    print(moistMeter, " ", motorValue, " ", timer)    
+    print(moistMeter, " ", motorValue)    
     
     # > 20600 Dry in Air
     #16500 good number for moistness??? 
