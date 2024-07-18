@@ -1,6 +1,5 @@
 Pico Plant Waterer first version
 
-(code will be added possibly in next commit)
 Objective for V0.1:
     Create a working project and make sure things don't blow up. :D
 
