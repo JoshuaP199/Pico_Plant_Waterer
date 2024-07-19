@@ -6,6 +6,6 @@ Objective for V0.1:
 Things to work on for next version:
     Clean up wiring 
     Possibly add a display to show information
-    Add a solar panel to charge the battery (The server manager is already in use just not hooked up to panel yet)
+    Add a solar panel to charge the battery (The solar manager is already in use just not hooked up to panel)
     If temps get high look into a cooling solution
     Make a better design
